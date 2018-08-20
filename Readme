@@ -1,0 +1,23 @@
+-------------------------------------Tema 1------------------------------------
+
+-> Pentru fiecare proces am creat cate o clasa care extinde clasa abstracta Proces.
+   Clasa Proces contine campurile x si value, weight, type metodele getResult, setX,
+   getType. X reprezinta valoarea de calculat, iar value este valoarea calculata, etc.
+
+-> Se citeste structura fisierlui de intrare in FileRead, apoi este parsat restului de 
+	metode
+
+-> In fiecare clasa ce extinde Clasa Proces, se suprascrie doar metoda Compute, restul
+   metodelor sunt generice.
+
+-> Pentru planificatorul Random, se genereaza numere aleatorii, in functie de care se
+   alege un tip de proces cu un numar fix asociat.
+
+-> Pentru planificatorul RoundRobin, se apeleaza fiecare proces in ordine pana la 
+   epuizarea numerelor. 
+
+-> Pentru planificatorul Weighted, se apeleaza fiecare proces dupa formula weighted/cmmdc
+
+
+Realizat de catre: Gengiu Robert-Constantin
+Grupa: 322 CB
